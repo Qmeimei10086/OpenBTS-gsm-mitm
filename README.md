@@ -11,9 +11,9 @@
 环境:Ubuntu9.04  
 首先要换源,因为ubuntu9.04早就不被支持,所以你需要更换旧源,具体内容自己百度  
 下面安装编译所需的环境:  
-｀｀｀
+```javascript
 apt-get install autoconf libtool libosip2-dev libortp-dev libusb-1.0-0-dev g++ sqlite3 libsqlite3-dev erlang libreadline6-dev libncurses5-dev libsqlite3-dev erlang libreadline6-dev libncurses5-dev  
-｀｀｀
+```
 过程参照:  
 https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458280897&idx=1&sn=694e08910e1e32c1159a8eab34a374b5&chksm=b181534b86f6da5d01eda9cd5ac2c10c4dbd93b3c9197f0c3aaddf06b9e9ea297556f625c66a&scene=27  
 http://www.360doc.com/content/14/0415/09/11764545_369096041.shtml  
