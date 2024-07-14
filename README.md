@@ -9,7 +9,7 @@
 ## 添加了如下功能
 1.当设备附着时自动发送Identity Request获取imsi和imei  
 2.当设备附着时发送设定好rand的Authentication Requests并返回sres  
-3.将openbts的sendsms重新改造为再次发送设定好rand的Authentication Requests并返回sres  
+3.将openbts的sendsms重新改造为再次发送设定好rand的Authentication Requests并返回sres的命令，同时也可正常用来发送短信  
 
 ***
 # 编译
