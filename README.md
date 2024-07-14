@@ -16,10 +16,10 @@ apt-get install autoconf libtool libosip2-dev libortp-dev libusb-1.0-0-dev g++ s
 ```
 过程参照:  
 https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458280897&idx=1&sn=694e08910e1e32c1159a8eab34a374b5&chksm=b181534b86f6da5d01eda9cd5ac2c10c4dbd93b3c9197f0c3aaddf06b9e9ea297556f625c66a&scene=27  
+
 http://www.360doc.com/content/14/0415/09/11764545_369096041.shtml  
-***
-编译顺序:
-***
+
+## 编译顺序:
 1 a53  
 2 openbts  
 3 subscriberRegistry  
