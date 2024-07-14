@@ -44,7 +44,7 @@ https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458280897&idx=1&sn=694e08
 ***
 为保证该程序也可作为正常基站程序使用，工具人攻击的部分默认关闭  
 ## 启用中间人攻击
-先运行server.py(python3环境),然后在运行OpenBTS   
+先运行server.py(python3环境),然后再运行OpenBTS   
 运行OpenBTSCLI，输入mitm_open命令即可开启，或者在本目录下创建open_mitm文件    
 ## 关闭中间人攻击
 运行OpenBTSCLI，输入mitm_close命令即可开启，或者删除本目录下open_mitm文件 
