@@ -26,9 +26,9 @@ https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458280897&idx=1&sn=694e08
 http://www.360doc.com/content/14/0415/09/11764545_369096041.shtml  
 
 ## 编译顺序:
-1 a53  
-2 openbts  
-3 subscriberRegistry  
+1.a53  
+2.openbts  
+3.subscriberRegistry  
 只需要编译这三个,上述链接中提到的别的东西一概不需要编译  
 ## 另一种方式
 如果嫌麻烦可以使用我已经编译过的文件,而且包括了所需的.so文件(可能有缺),推荐使用环境Ubuntu16.04 amd64，如果提示缺少哪个so文件直接把那个复制到/usr/lib 文件夹里就行了  
