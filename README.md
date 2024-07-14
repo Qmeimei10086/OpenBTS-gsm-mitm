@@ -51,7 +51,7 @@ https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458280897&idx=1&sn=694e08
 ## 关于server.py使用教程:
 set rand/sres xxx :设置rand和sres  
 show rand/sres    :显示rand和sres  
-tmsis             :显示祖册在伪基站上的用户的imsi和iemi  
+tmsis             :显示注册在伪基站上的用户的imsi和iemi  
 auth [IMSI]       :对目标设备发起鉴权,rand为你设置的,默认为aaaabbbbccccddddeeeeffffgggghhhh  
 ***
 # 关于作者
