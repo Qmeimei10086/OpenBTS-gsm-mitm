@@ -76,6 +76,7 @@ def start_server():
             connection.close()
 
 def main():
+    print("This is just a test program to test the BSC side of gsm MITM(man-in-the-middle) attacks\n")
     server = threading.Thread(target=start_server)
     server.start()
     while True:
