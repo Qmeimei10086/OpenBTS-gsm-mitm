@@ -18,7 +18,7 @@ https://github.com/Qmeimei10086/mobile-gsm-mitm
 # 编译
 ***
 环境:Ubuntu9.04  
-首先要换源,因为ubuntu9.04早就不被支持,所以你需要更换旧源,具体内容自己百度  
+首先要换源,因为ubuntu9.04早就不被支持,所以你需要更换旧源,具体过程自己百度  
 下面安装编译所需的环境:  
 ```javascript
 apt-get install autoconf libtool libosip2-dev libortp-dev libusb-1.0-0-dev g++ sqlite3 libsqlite3-dev erlang libreadline6-dev libncurses5-dev libsqlite3-dev erlang libreadline6-dev libncurses5-dev
@@ -33,8 +33,15 @@ http://www.360doc.com/content/14/0415/09/11764545_369096041.shtml
 2.openbts  
 3.subscriberRegistry  
 ```javascript
-cd 
+cd a53 
+autoreconf -i 
+./configure 
+make 
+make install 
+ldconfig -i 
+cd .. 
 ```
+三个的过程都差不多，有的可能不需要那么多步，反正你都敲一遍总不会错（笑）
 只需要编译这三个,上述链接中提到的别的东西一概不需要编译  
 ## 另一种方式
 如果嫌麻烦可以使用我已经编译过的文件,而且包括了所需的.so文件(可能有缺),推荐使用环境Ubuntu16.04 amd64，如果提示缺少哪个so文件直接把那个复制到/usr/lib 文件夹里就行了  
@@ -79,5 +86,5 @@ https://b23.tv/oMYL3BO
 ***
 请勿用于非法用途!!!!!!!  
 本程序只是试验品,尚未成熟,需要你们自己摸索使用  
-剩下的攻击手机部分下次再说吧（应该不难实现，不过估计得等到我高三毕业上大学）！  
+~~`剩下的攻击手机部分下次再说吧（应该不难实现，不过估计得等到我高三毕业上大学）！  ~~ 
 我希望能填补网上关于gsm中间人攻击代码的空白。。。。  
