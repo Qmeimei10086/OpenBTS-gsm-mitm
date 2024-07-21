@@ -1,4 +1,7 @@
 # 本程序仅供学习测试,请勿用于非法用途
+# 指路
+gsm中间人攻击的mobile部分：
+https://github.com/Qmeimei10086/mobile-gsm-mitm 
 # 简介
 ***
 本程序是经过修改的OpenBTS rP3.1.3加入了gsm中间人所需的功能  
@@ -29,6 +32,9 @@ http://www.360doc.com/content/14/0415/09/11764545_369096041.shtml
 1.a53  
 2.openbts  
 3.subscriberRegistry  
+```javascript
+cd 
+```
 只需要编译这三个,上述链接中提到的别的东西一概不需要编译  
 ## 另一种方式
 如果嫌麻烦可以使用我已经编译过的文件,而且包括了所需的.so文件(可能有缺),推荐使用环境Ubuntu16.04 amd64，如果提示缺少哪个so文件直接把那个复制到/usr/lib 文件夹里就行了  
