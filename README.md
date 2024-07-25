@@ -44,14 +44,28 @@ cd ..
 三个的过程都差不多，有的可能不需要那么多步，反正你都敲一遍总不会错（笑）  
 只需要编译这三个,上述链接中提到的别的东西一概不需要编译  
 ## 另一种方式
-如果嫌麻烦可以使用我已经编译过的文件,而且包括了所需的.so文件(可能有缺),推荐使用环境Ubuntu16.04 amd64，如果提示缺少哪个so文件直接把那个复制到/usr/lib 文件夹里就行了  
+如果嫌麻烦可以使用我已经编译过的文件,而且包括了所需的.so文件(可能有缺),推荐使用环境Ubuntu16.04/20.04 amd64 
+```javascript
+cd bin
+cp *.so.* /usr/lib
+chmod +x ./*
+mkdir /etc/OpenBTS
+sqlite3 -init OpenBTS.exmaple.sql /etc/OpenBTS/OpenBTS.db ".quit"
+sqlite3 -init subscriberRegistry.example.sql /etc/OpenBTS/sipauthserve.db ".quit"
+这时候你就可以愉快的修改OpenBTS.db这个配置文件啦
+```
 ***
 # 配置OpenBTS
 ***
+```javascript
+mkdir /etc/OpenBTS
+sqlite3 -init OpenBTS.exmaple.sql /etc/OpenBTS/OpenBTS.db ".quit"
+sqlite3 -init subscriberRegistry.example.sql /etc/OpenBTS/sipauthserve.db ".quit"
+这时候你就可以愉快的修改OpenBTS.db这个配置文件啦
+```
 参考  
 https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458280897&idx=1&sn=694e08910e1e32c1159a8eab34a374b5&chksm=b181534b86f6da5d01eda9cd5ac2c10c4dbd93b3c9197f0c3aaddf06b9e9ea297556f625c66a&scene=27  
-
-只需要初始化openbts和subscriberRegistry的两个sql文件即可  
+  
 ***
 # 使用
 ***
