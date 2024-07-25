@@ -1,5 +1,7 @@
 # 本程序仅供学习测试,请勿用于非法用途
 # 指路
+中间人攻击完整代码以及原理:  
+https://github.com/Qmeimei10086/gsm-mitm  
 gsm中间人攻击的mobile部分：
 https://github.com/Qmeimei10086/mobile-gsm-mitm 
 # 简介
@@ -18,6 +20,7 @@ https://github.com/Qmeimei10086/mobile-gsm-mitm
 # 编译
 ***
 环境:Ubuntu9.04(其实我在Ubuntu20.04也成功编译,不过需改修改很多源文件,我把修改好的也作为Release发布了一个)  
+其实没有那么难,只是现在国内的很多教程太老了，所用的文件以及丢失或不适用现在的版本  
 首先要换源,因为ubuntu9.04早就不被支持,所以你需要更换旧源,具体过程自己百度  
 下面安装编译所需的环境:  
 ```javascript
