@@ -2,8 +2,8 @@
 # 指路
 中间人攻击完整代码以及原理:  
 https://github.com/Qmeimei10086/gsm-mitm  
-gsm中间人攻击的mobile部分：
-https://github.com/Qmeimei10086/mobile-gsm-mitm 
+gsm中间人攻击的mobile部分：  
+https://github.com/Qmeimei10086/mobile-gsm-mitm  
 # 简介
 ***
 本程序是经过修改的OpenBTS rP3.1.3加入了gsm中间人所需的功能  
