@@ -64,6 +64,7 @@ sqlite3 -init subscriberRegistry.example.sql /etc/OpenBTS/sipauthserve.db ".quit
 ***
 ```javascript
 mkdir /etc/OpenBTS
+mkdir /var/lib/arsterisk 
 sqlite3 -init OpenBTS.exmaple.sql /etc/OpenBTS/OpenBTS.db ".quit"
 sqlite3 -init subscriberRegistry.example.sql /etc/OpenBTS/sipauthserve.db ".quit"
 这时候你就可以愉快的修改OpenBTS.db这个配置文件啦
