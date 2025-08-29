@@ -88,10 +88,9 @@ show rand/sres    :显示rand和sres
 tmsis             :显示注册在伪基站上的用户的imsi和iemi  
 auth [IMSI]       :对目标设备发起鉴权,rand为你设置的,默认为aaaabbbbccccddddeeeeffffgggghhhh  
 ***
-# 关于作者
+
 ***
-bilibili：https://space.bilibili.com/431312664?spm_id_from=333.1007.0.0  
-有问题来这里找我，本人已高三，可能不能及时回
+
 ***
 # 参考:
 参考论文：张浩 基于USRP的无线移动通信网络隐蔽定点攻击研究 西安电子科技大学 June 2018  
